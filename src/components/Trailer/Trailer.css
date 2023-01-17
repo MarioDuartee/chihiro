@@ -1,0 +1,29 @@
+.video{
+    display: flex;
+    width: 1110px;
+    margin: auto;
+    animation: aparecer 2s;
+}
+
+.video iframe{
+    margin: auto;
+    scale: 2;
+    margin-bottom: 100px;
+    margin-top: 150px;
+}
+
+
+@keyframes aparecer{
+    from{
+        transform: rotateX(90deg);;
+    }
+    to{
+        transform: rotateX(0deg);
+    }
+}
+
+@media (max-width: 550px){
+    .video{
+        display: none;
+    }
+}

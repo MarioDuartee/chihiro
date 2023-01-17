@@ -1,0 +1,35 @@
+.header {
+    max-width: 1110px;
+    margin: auto;
+    padding-top: 41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials {
+    width: 189px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 550px) {
+    .header{
+        padding-top: 14px;
+        margin-left: 25px;
+    }
+
+    .logo img{
+        width: 100px;
+    }
+
+    .socials {
+        margin-right: 25px;
+        width: 160px;
+    }
+
+    .socials a img{
+        width: 20px;
+    }
+
+}
