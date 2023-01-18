@@ -6,14 +6,14 @@ import { useState } from 'react';
 
 
 function App() {
-  const [count, setCount] = useState('none')
+  const [estilo, setEstilo] = useState('none')
 
   var fuiAtivado = 'none'
   return (
     <div className="App">
     <Header/>
-    <Main mudarEstado={setCount}/>
-    <Trailer ativacao={count} />
+    <Main mudarEstado={setEstilo}/>
+    <Trailer ativacao={estilo} />
     </div>
   )
   }
